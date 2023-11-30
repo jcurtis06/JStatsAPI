@@ -5,10 +5,10 @@
  * Find me @ https://jcurtis.io or https://github.com/jcurtis06
  */
 
-package io.jcurtis.jstats.api.stat;
+package io.jcurtis.jstatsapi.api.stat;
 
-import io.jcurtis.jstats.api.provider.JStatProvider;
-import io.jcurtis.jstats.plugin.JStats;
+import io.jcurtis.jstatsapi.api.provider.JStatProvider;
+import io.jcurtis.jstatsapi.plugin.JStats;
 
 import java.util.HashMap;
 import java.util.UUID;

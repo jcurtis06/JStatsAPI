@@ -5,9 +5,9 @@
  * Find me @ https://jcurtis.io or https://github.com/jcurtis06
  */
 
-package io.jcurtis.jstats.plugin;
+package io.jcurtis.jstatsapi.plugin;
 
-import io.jcurtis.jstats.api.JStatsAPI;
+import io.jcurtis.jstatsapi.api.JStatsAPI;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerJoinEvent;

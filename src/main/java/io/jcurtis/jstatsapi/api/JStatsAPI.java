@@ -5,13 +5,13 @@
  * Find me @ https://jcurtis.io or https://github.com/jcurtis06
  */
 
-package io.jcurtis.jstats.api;
+package io.jcurtis.jstatsapi.api;
 
-import io.jcurtis.jstats.api.data.LocalDataManager;
-import io.jcurtis.jstats.api.provider.JStatProvider;
-import io.jcurtis.jstats.api.stat.JStat;
-import io.jcurtis.jstats.api.stat.StatRequest;
-import io.jcurtis.jstats.plugin.JStats;
+import io.jcurtis.jstatsapi.api.data.LocalDataManager;
+import io.jcurtis.jstatsapi.api.provider.JStatProvider;
+import io.jcurtis.jstatsapi.api.stat.JStat;
+import io.jcurtis.jstatsapi.api.stat.StatRequest;
+import io.jcurtis.jstatsapi.plugin.JStats;
 import org.jetbrains.annotations.NotNull;
 
 import javax.annotation.Nullable;

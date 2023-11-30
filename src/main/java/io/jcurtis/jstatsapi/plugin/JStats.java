@@ -1,8 +1,6 @@
-package io.jcurtis.jstats.plugin;
+package io.jcurtis.jstatsapi.plugin;
 
-import io.jcurtis.jstats.api.JStatsAPI;
-import io.jcurtis.jstats.api.provider.JStatProvider;
-import io.jcurtis.jstats.api.stat.JStat;
+import io.jcurtis.jstatsapi.api.JStatsAPI;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.jetbrains.annotations.NotNull;

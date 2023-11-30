@@ -5,7 +5,7 @@
  * Find me @ https://jcurtis.io or https://github.com/jcurtis06
  */
 
-package io.jcurtis.jstats.api.provider;
+package io.jcurtis.jstatsapi.api.provider;
 
 import org.bukkit.plugin.Plugin;
 

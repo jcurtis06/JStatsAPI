@@ -1,4 +1,4 @@
-name: JStats
+name: JStatsAPI
 version: '${version}'
-main: io.jcurtis.jstats.plugin.JStats
+main: io.jcurtis.jstatsapi.plugin.JStats
 api-version: '1.20'
