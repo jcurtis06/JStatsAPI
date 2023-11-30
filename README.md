@@ -1,5 +1,10 @@
 # JStatsAPI
-A simple API for creating custom statistics in Minecraft
+A simple API for creating custom statistics in Minecraft.
+
+### Features
+- Create custom statistics
+- Database and file storage
+- Easily implementable into any plugin
 
 ## Usage
 Using JStatsAPI was designed to be as simple as possible. There are only a few steps to creating a statistic.
