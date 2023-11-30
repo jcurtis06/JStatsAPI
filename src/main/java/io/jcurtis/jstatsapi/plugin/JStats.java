@@ -1,6 +1,8 @@
 package io.jcurtis.jstatsapi.plugin;
 
 import io.jcurtis.jstatsapi.api.JStatsAPI;
+import io.jcurtis.jstatsapi.api.provider.JStatProvider;
+import io.jcurtis.jstatsapi.api.stat.JStat;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.jetbrains.annotations.NotNull;
@@ -17,6 +19,17 @@ public final class JStats extends JavaPlugin {
         for (Player p : getServer().getOnlinePlayers()) {
             JStatsAPI.getInstance().getLocalDataManager().loadPlayerData(p.getUniqueId());
         }
+
+        JStatProvider provider = new JStatProvider(this, false);
+
+        JStatsAPI.getInstance().registerStat(
+                new JStat<>(
+                        "Test Stat",
+                        provider,
+                        "test-stat",
+                        0
+                )
+        );
 
         this.getLogger().info("Enabled JStats!");
     }
