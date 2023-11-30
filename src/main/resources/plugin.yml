@@ -1,0 +1,4 @@
+name: JStats
+version: '${version}'
+main: io.jcurtis.jstats.plugin.JStats
+api-version: '1.20'
